@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.js" : {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map" : true
+    },
+    "jasmineExplorer.nodeArgv": ["-r","ts-node/register","-r","dotenv/config"],
+    "jasmineExplorer.env": {"DOTENV_CONFIG_PATH" : ".env/test.env"},
+    "[typescript]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

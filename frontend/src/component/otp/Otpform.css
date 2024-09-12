@@ -1,0 +1,140 @@
+.contai{
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header section within OTP container */
+.otp-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Content text styling */
+.otp-content {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: start;
+}
+
+/* Input section within OTP container */
+.otp-input-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign-up form styling */
+.otp-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for input fields within OTP form */
+.otp-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+/* Styling for focused input fields */
+.otp-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Button container styling */
+.otp-button-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for buttons within OTP form */
+.otp-button-container button {
+    width: 100%;
+    max-width: 110px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.otp-button-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer and help text styling */
+.footer-text, .otp-footer p, .help-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-text a, .otp-footer a, .help-links a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.footer-text a:hover, .otp-footer a:hover, .help-links a:hover {
+    text-decoration: underline;
+}
+
+/* Additional spacing for help section */
+.help-spacing {
+   padding-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .otp-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .otp-button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .otp-button-container button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .help-links {
+        text-align: center;
+    }
+}

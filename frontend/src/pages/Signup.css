@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue; 
+    align-items: center;/* Container background color */
+}
+
+.sub_container {
+    width: 90%;
+    height: 90%; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+

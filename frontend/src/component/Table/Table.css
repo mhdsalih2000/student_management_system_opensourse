@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+
+
+
+.table-main{
+    width: 95%;
+    height: 95%;
+  
+   
+
+}
+.tablehead{
+    margin-top: 3px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.table-div{
+    width: 100%;
+    height: auto;
+    border: 0.7px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.table-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.table-left{
+    width: 50%;
+    height: 100%;   
+}
+.table-right p{
+    font-family: "Lexend", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.tablehead-input{
+
+    width: 100%;
+    height: 7%;
+    display: flex;
+    
+}
+.left-table-inputhead{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.right-table-inputhead{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+
+}
+.inp{
+    width: 40%;
+    height: 60%;
+    border: 0.7px solid rgb(207, 207, 207);
+    border-radius: 4px;
+   
+}
+
+.btn{
+    width: 18%;
+    height: 67%;
+    background-color: #6D31ED;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+ 
+    
+}
+.btn p{
+    font-family: "Lexend", sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    text-align: left;
+  
+    border-radius: 10px;
+    font-family: "Lexend", sans-serif;
+    table-layout: auto;  
+  }
+  
+  th {  
+    padding: 12px;
+    font-weight: 500;  
+    font-size: 0.8rem; 
+  }
+  
+  td {
+    padding: 12px;
+    color: #171A1F;
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+
+
+  .btn img{
+    width: 10px;
+    height: 10px;
+  }
+  
+  tr:hover { background-color: #f5f5f5;}
+  
+ 
+  
+  input::placeholder {
+    color: #999;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+}
+input:focus {
+
+    color: rgb(52, 52, 52); /* Change text color when focused */
+    background-color: #e7e7e7; /* Slightly different background when focused */
+    border-color: gray; /* Change border color when focused */
+}
+input{
+    font-family:  "Lexend", sans-serif;
+    font-weight: 300;
+}
+
+
+/* Table.css */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 400px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .popup form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup form button:hover {
+    background-color: #45a049;
+  }
+  .fiter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #6D31ED;
+  }
+  
+  .fiter  img{
+    width:15px;
+    height: 15px;
+    cursor: pointer;
+
+}
